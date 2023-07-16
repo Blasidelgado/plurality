@@ -126,7 +126,7 @@ void print_winner(void)
         printf("%s\n", winners[m].name);
         m++;
     }
-    while (winners[m].name);
+    while (winners[m].votes > 0);
 
     return;
 }
